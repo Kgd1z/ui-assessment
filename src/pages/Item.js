@@ -38,7 +38,10 @@ const Home = () => {
       </header>
       <SearchHeader />
 
-      <p>path</p>
+      {/* <p>path</p> */}
+      <div style={{height:60}}>
+
+      </div>
       <ItemDetail />
       <RewardsBadge />
       <Footer />

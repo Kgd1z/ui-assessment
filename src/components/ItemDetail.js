@@ -4,33 +4,40 @@ export const ItemDetail=()=>{
         <div className="item-image">
           <div className="item-main">
             <img
+              className="product-large"
               style={{}}
               src={require("../assets/images/product-large.jpg")}
             />
           </div>
           <div className="item-sec">
             <img
-              style={{ marginRight: 16 }}
+              className="product-small"
+              style={{  }}
               src={require("../assets/images/product-small.jpg")}
             />
             <img
-              style={{ marginRight: 16 }}
+              className="product-small"
+              style={{  }}
               src={require("../assets/images/product-small.jpg")}
             />
             <img
-              style={{ marginRight: 16 }}
+              className="product-small"
+              style={{  }}
               src={require("../assets/images/product-small.jpg")}
             />
             <img
-              style={{ marginRight: 16 }}
+              className="product-small"
+              style={{  }}
               src={require("../assets/images/product-small.jpg")}
             />
             <img
-              style={{ marginRight: 16 }}
+              className="product-small"
+              style={{  }}
               src={require("../assets/images/product-small.jpg")}
             />
             <img
-              style={{ marginRight: 16 }}
+              className="product-small"
+              style={{  }}
               src={require("../assets/images/product-small.jpg")}
             />
           </div>
@@ -69,30 +76,21 @@ export const ItemDetail=()=>{
             >
               <p style={{ color: "#FFFFFF", fontWeight: 600 }}>Save 67%</p>
             </div>
-            <div
+            <div className="add-to-div"
               style={{
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-                marginLeft: 78,
-                width: 154,
-                height: 40,
-                border: "1px solid #EAEAEC",
+               
               }}
             >
               <img
                 style={{ marginRight: 10 }}
                 src={require("../assets/icons/png/heart-outline.png")}
               />
-              <p style={{ fontSize: 12 }}>Add to Favorites</p>
+              <p className="add-to" style={{ fontSize: 12 }}>Add to Favorites</p>
             </div>
           </div>
-          <div
+          <div className="item-desc"
             style={{
-              width: 600,
-              height: 80,
-              lineHeight: 2.0,
-              marginBottom: 40,
+              
             }}
           >
             <p>
@@ -181,8 +179,8 @@ export const ItemDetail=()=>{
                 backgroundColor: "#F9DC38",
                 width: 496,
                 height: 56,
-                fontSize:16.8,
-                fontWeight:600
+                fontSize: 16.8,
+                fontWeight: 600,
               }}
             >
               Add to Cart

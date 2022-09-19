@@ -227,6 +227,27 @@ li {
     display: 'flex',
 }
 
+.product-small {
+    margin-right: 16px;
+}
+
+.item-desc {
+    width: 600px;
+    height: 8px;
+    line-height: 2.0;
+    margin-bottom: 140px;
+}
+
+.add-to-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 78px;
+    width: 154px;
+    height: 40px;
+    border: 1px solid #EAEAEC;
+}
+
 .other-collection-card {}
 
 @media only screen and (max-width: 1024px) {
@@ -282,5 +303,65 @@ li {
         grid-gap: 32px;
         grid-template-columns: repeat(2, 1fr);
         align-items: center;
+    }
+    .bottom-personalization {
+        background-image: url('./assets/images/personalization.jpg');
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 358px;
+        height: 218px;
+        opacity: 0.4;
+        margin-bottom: 40px;
+        display: 'flex',
+    }
+    .bottom-social {
+        background-image: url('./assets/images/social-networks.jpg');
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 358px;
+        height: 218px;
+        opacity: 0.4;
+        display: 'flex',
+    }
+    .product-large {
+        width: 358px;
+        height: 358px
+    }
+    .product-small {
+        width: 51px;
+        height: 51px;
+        margin-right: 10px;
+    }
+    .item {
+        padding-left: 160px;
+        display: flex;
+        flex-direction: column;
+    }
+    .item-desc {
+        width: 450px;
+        height: 85px;
+        font-size: 12px;
+        line-height: 2.0;
+        margin-bottom: 40px;
+    }
+    .add-to {
+        opacity: 0;
+    }
+    .add-to-div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 78px;
+        width: 50px;
+        height: 50px;
+        border: none;
+    }
+    .form-input {
+        border: 1px solid #EAEAEC;
+        width: 270px;
+        height: 40px;
+        padding-left: 15px;
     }
 }
