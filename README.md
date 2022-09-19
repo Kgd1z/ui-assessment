@@ -1,57 +1,70 @@
-# UI Assessment
+# Getting Started with Create React App
 
-# Design file
-https://www.figma.com/file/fO9SrIq6PCQSoJ8iqT0A3O/Sample-UI?node-id=1%3A2
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# Assets
-Icons and images are included in the assets folder of this repo
+## Available Scripts
 
-# API
-Docs: https://camiestas-futbol.effectstudios.co/api/docs <br>
-Base URL: https://camiestas-futbol.effectstudios.co/api
+In the project directory, you can run:
 
-#### Banners
-```shell
-GET https://camiestas-futbol.effectstudios.co/api/v1/banner
-```
-#### Popular products
-```shell
-GET https://camiestas-futbol.effectstudios.co/api/v1/product-category
-```
-#### Product collections/categories
-Slugs for `Country Leagues` and `Other Collections` can be found in the results returned from this endpoint
-```shell
-GET https://camiestas-futbol.effectstudios.co/api/v1/product-category
-```
-#### Single collection/category
-```shell
-GET https://camiestas-futbol.effectstudios.co/api/v1/product-category-slug/{slug}
-```
-#### Single product details/information
-```shell
-GET https://camiestas-futbol.effectstudios.co/api/v1/product-single/{slug}
-```
+### `npm start`
 
-# Objectives
-- Fork this repository.
-- Build the user interface exaclty as seen in the design file linked above. Alignment, spacing and precision are key.
-- Connect the UI to the backend using the API provided above
-- Animations are not required, but would be a plus.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-# Requirements
-### Web Framework (Any of)
-- React ([Vite](https://vitejs.dev/)) or [Next.js](https://nextjs.org/)
-- [Vue 3](https://vuejs.org/) or [Nuxt 3](https://v3.nuxtjs.org/)
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-### UI library (Any of) 
-- [TailwindCSS](https://tailwindcss.com/)
-- Vanilla CSS or SCSS
+### `npm test`
 
-# Deadline
-72hrs after you've accepted the invite to the Figma file.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-If you've got any questions, do leave it in the discussions panel and mention @pyplacca in it.
+### `npm run build`
 
-# Submission Instructions
-1. Create a deployment link.
-2. [Email](mailto:david@effectstudios.co?subject=Submission:%20Frontend%20Developer%20Assessment) links of the deployment and Github repository.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
